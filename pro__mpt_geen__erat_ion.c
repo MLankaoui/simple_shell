@@ -9,18 +9,18 @@ void create_pro__mpt(char **buff_err, size_t *buff_si_zee)
 {
 	int num_read;
 
-	struct sigaction ld;
+	struct sigaction sa;
 
-	ld.ld_handler = SIG_IGN;
-	sigemptyset(&ld.ld_mask);
-	ld.ld_flags = 0;
-	sigaction(SIGINT, &ld, NULL);
+	sa.sa_handler = SIG_IGN;
+	sigemptyset(&sa.sa_mask);
+	sa.sa_flags = 0;
+	sigaction(SIGINT, &sa, NULL);
 
 	num_read = mod_get_liine(buff_err, buff_si_zee, stdin);
 	if (num_read != -1)
 	{
-		ld.ld_handler = SIG_DFL;
-		sigaction(SIGINT, &ld, NULL);
+		sa.sa_handler = SIG_DFL;
+		sigaction(SIGINT, &sa, NULL);
 		(*buff_err)[num_read - 1] = '\0';
 		command_ex_ists(*buff_err);
 	}

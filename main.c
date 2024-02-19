@@ -14,7 +14,7 @@ int main(void)
 
 	while (is_run)
 	{
-		create_prompt(&err_buffer, &buff_f_si_ze);
+		create_pro__mpt(&err_buffer, &buff_f_si_ze);
 	}
 	free(err_buffer);
 	return (0);
