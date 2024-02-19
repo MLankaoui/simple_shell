@@ -13,5 +13,6 @@
 #include <ctype.h>
 
 void create_pro__mpt(char **buff_err, size_t *buff_si_zee);
+void siginthandl__ing(int signum, char *bufff_eerr);
 
 #endif
