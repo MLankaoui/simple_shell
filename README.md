@@ -1,2 +1,2 @@
-# simple_shell
-# An alx project
+# simple_shell.
+# An alx project.
