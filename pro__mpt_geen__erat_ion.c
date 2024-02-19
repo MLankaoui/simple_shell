@@ -10,6 +10,7 @@ void create_pro__mpt(char **buff_err, size_t *buff_si_zee)
 	int num_read;
 
 	struct sigaction ld;
+
 	ld.ld_handler = SIG_IGN;
 	sigemptyset(&ld.ld_mask);
 	ld.ld_flags = 0;
