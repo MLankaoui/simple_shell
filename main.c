@@ -7,15 +7,15 @@
 */
 int main(void)
 {
-	char *buff_err = NULL;
+	char *err_buffer = NULL;
 
-	size_t buff_size = 0;
-	int infinite = 1;
+	size_t buff_f_si_ze = 0;
+	int is_run = 1;
 
-	while (infinite)
+	while (is_run)
 	{
-		generate_prompt(&buff_err, &buff_size);
+		create_prompt(&err_buffer, &buff_f_size);
 	}
-	free(buff_err);
+	free(err_buffer);
 	return (0);
 }
