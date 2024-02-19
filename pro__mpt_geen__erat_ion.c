@@ -22,7 +22,7 @@ void create_pro__mpt(char **buff_err, size_t *buff_si_zee)
 		ld.ld_handler = SIG_DFL;
 		sigaction(SIGINT, &ld, NULL);
 		(*buff_err)[num_read - 1] = '\0';
-		command_ex_ists(*buffer);
+		command_ex_ists(*buff_err);
 	}
 	else
 	{
