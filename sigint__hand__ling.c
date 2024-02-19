@@ -7,8 +7,8 @@
 */
 void siginthandl__ing(int signum, char *bufff_eerr)
 {
-    (void)signum;
-    printf("\n");
-    free(bufff_eerr);
-    exit(EXIT_SUCCESS);
+	(void)signum;
+	printf("\n");
+	free(bufff_eerr);
+	exit(EXIT_SUCCESS);
 }
