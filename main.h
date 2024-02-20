@@ -14,5 +14,6 @@
 
 void create_pro__mpt(char **buff_err, size_t *buff_si_zee);
 void siginthandl__ing(int signum, char *bufff_eerr);
+int read_geet_linee(char **line__buff, size_t *bsize, FILE *input_str_eam);
 
 #endif
