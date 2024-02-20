@@ -20,5 +20,7 @@ int read_geet_linee(char **line__buff, size_t *bsize, FILE *input_str_eam);
 void pa_rseHandle_input(char *buff_err);
 void checks_co_mmand_availability(char *comma__and__s);
 int exe__cutee_co__mm__and(char **args);
+int __str_cm_p(char *s_1, char *s_2);
+char *_my_strt_ooo_k(char *str, const char *dl)
 
 #endif
