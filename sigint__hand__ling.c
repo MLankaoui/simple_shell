@@ -8,7 +8,7 @@
 void siginthandl__ing(int signum, char *bufff_eerr)
 {
 	(void)signum;
-	printf("\n");
+	printf("\nCtrl+C detected. Exiting shell.\n");
 	free(bufff_eerr);
 	exit(EXIT_SUCCESS);
 }
