@@ -11,11 +11,11 @@ void pa_rseHandle_input(char *buff_err)
 
 	int index;
 
-	tokk__eee__nnn = _my_strt_ooo_k(buff_err, " \t\n");
+	tokk__eee__nnn = strtok(buff_err, " \t\n");
 	for (index = 0; tokk__eee__nnn != NULL && index < MAX_ARGS - 1;)
 	{
 		args[index++] = tokk__eee__nnn;
-		tokk__eee__nnn = _my_strt_ooo_k(NULL, " \t\n");
+		tokk__eee__nnn = strtok(NULL, " \t\n");
 	}
 
 
