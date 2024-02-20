@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* parseHandle_input - Parses and handles input.
+* pa_rseHandle_input - Parses and handles input.
 * @buff_err: The input buffer containing the command and arguments.
 */
 void pa_rseHandle_input(char *buff_err)

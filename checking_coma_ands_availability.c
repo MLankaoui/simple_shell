@@ -2,7 +2,7 @@
 
 /**
  * checks_co_mmand_availability - Checks if a command is available.
- * @cmd: The command to check.
+ * @comma__and__s: The command to check.
  */
 void checks_co_mmand_availability(char *comma__and__s)
 {
