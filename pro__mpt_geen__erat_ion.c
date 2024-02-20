@@ -7,7 +7,7 @@
 */
 void create_pro__mpt(char **buff_err, size_t *buff_si_zee)
 {
-	int num_read;
+	ssize_t num_read;
 
 	struct sigaction sa;
 
