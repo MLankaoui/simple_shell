@@ -7,18 +7,18 @@
 void pa_rseHandle_input(char *buff_err)
 {
 
-	char *args[MAX_ARGS], *tokkeee__nnn;
+	char *args[MAX_ARGS], *tokk__eee__nnn;
 
 	int index;
 
-	tokkeee__nnn = strtok(buff_err, " \t\n");
-	for (index = 0; tokkeee__nnn != NULL && index < MAX_ARGS - 1;)
+	tokk__eee__nnn = strtok(buff_err, " \t\n");
+	for (index = 0; tokk__eee__nnn != NULL && index < MAX_ARGS - 1;)
 	{
-		args[index++] = tokkeee__nnn;
-		tokkeee__nnn = strtok(NULL, " \t\n");
+		args[index++] = tokk__eee__nnn;
+		tokk__eee__nnn = strtok(NULL, " \t\n");
 	}
 
 
 	args[index] = NULL;
-	exec_cmd(args);
+	exe_cuute_comm__and(args);
 }
