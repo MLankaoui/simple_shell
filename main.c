@@ -7,15 +7,13 @@
 */
 int main(void)
 {
-	char *err_buffer = NULL;
+	char *buf = NULL;
 
-	size_t buff_f_si_ze = 0;
-	int is_run = 1;
+	size_t bufsize = 0;
 
-	while (is_run)
+	while (1)
 	{
-		create_pro__mpt(&err_buffer, &buff_f_si_ze);
+		create_pro__mpt(&buf, &bufsize);
 	}
-	free(err_buffer);
 	return (0);
 }

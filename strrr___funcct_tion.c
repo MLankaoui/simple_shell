@@ -16,12 +16,12 @@ int _str__lennn(char *_str__ingg)
 }
 
 /**
- * _str_ch_r - Entry point
+ * str_ch_r - Entry point
  * @st__r: input
  * @chr: input
  * Return: Always 0 (Success)
  */
-char *_str_ch_r(const char *st__r, int chr)
+char *str_ch_r(const char *st__r, int chr)
 {
 	while (*st__r != '\0')
 	{
@@ -79,13 +79,12 @@ char *_str_c_cat(char *dst_t, char *src)
 }
 
 /**
- * _str__spn - Entry point
+ * strc__spn - Entry point
  * @s: input
  * @acc__ept_chars: input
  * Return: Always 0 (Success)
  */
-
-unsigned int _str__spn(char *s, char *acc__ept_chars)
+unsigned int strc__spn(char *s, char *acc__ept_chars)
 {
 	unsigned int value = 0;
 	char *ptr;

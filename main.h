@@ -25,6 +25,6 @@ char *_my_strt_ooo_k(char *str, const char *dl);
 char *str_ch_r(const char *st_r, int chr);
 char *str_cppyy(char *dst_t, char *src);
 char *_str_c_cat(char *dst_t, char *src);
-unsigned int strspn(char *s, char *acc_ept_chars);
+unsigned int strc__spn(char *s, char *acc_ept_chars);
 
 #endif

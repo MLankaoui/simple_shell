@@ -41,12 +41,12 @@ char *_my_strt_ooo_k(char *str, const char *dl)
 	if (buff_f == NULL || *buff_f == '\0')
 		return (NULL);
 
-	while (*buff_f != '\0' && _str__chr(dl, *buff_f) != NULL)
+	while (*buff_f != '\0' && str_ch_r(dl, *buff_f) != NULL)
 		buff_f++;
 
 	run_token = buff_f;
 
-	while (*buff_f != '\0' && _str__chr(dl, *buff_f) == NULL)
+	while (*buff_f != '\0' && str_ch_r(dl, *buff_f) == NULL)
 		buff_f++;
 
 	if (*buff_f == '\0')

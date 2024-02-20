@@ -15,7 +15,7 @@ void create_pro__mpt(char **buff_err, size_t *buff_si_zee)
 	sigemptyset(&sa.sa_mask);
 	sa.sa_flags = 0;
 	sigaction(SIGINT, &sa, NULL);
-	num_read = custom_getl__iiine(buff_err, buff_si_zee, stdin);
+	num_read = read_geet_linee(buff_err, buff_si_zee, stdin);
 
 	if (num_read != -1)
 	{
@@ -31,7 +31,7 @@ void create_pro__mpt(char **buff_err, size_t *buff_si_zee)
 		}
 
 		buff_err[num_read - 1] = '\0';
-		parse_user_input(*buff_err);
+		pa_rseHandle_input(*buff_err);
 	}
 	else
 		exit(EXIT_SUCCESS);
